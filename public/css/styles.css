@@ -1,0 +1,33 @@
+a{
+  color: black;
+
+}
+a:hover{
+  text-decoration: none;
+  color: black;
+}
+.weather-img{
+  text-align: center;
+
+}
+.weather-img img{
+  height: auto;
+  width:25%;
+  border-radius: 100%
+}
+.form-div{
+  text-align: center;
+  margin: 3% 10%;
+}
+.form-div input{
+  width:250px;
+  height:35px;
+}
+footer{
+  text-align: center;
+  font-weight: 600;
+  height:50px;
+}
+.data{
+  text-align: center;
+}

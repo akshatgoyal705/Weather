@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="/favicon/favicon.ico">
+  </head>
+  <body>
+    <nav class="navbar navbar-default" style=" background-color:yellow; ">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="/">
+            <img src="images/weather.png" style="height:auto;width:40px" alt="">
+            <h2 class="navbar-brand">My Weather App</h2>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="weather-img" >
+      <img src="images/weather.png" style=" height:auto;width:200px; " alt="">
+    </div>
+
+    <div class="data" style="margin:2rem">
+      <div class="" >There is <%=weatherDescription %> in <%=cityName %></div>
+      <h2 class="">The temprature in  <%=cityName %>  is <%= temprature %> degree celcius</h2>
+      <div  class="">
+        <img src="<%=imgURL %>">
+      </div>
+
+    </div>
+    <div class="form-div">
+      <form class="" action="/" method="post">
+        <input type="text" name="city" placeholder="Enter City Name">
+        <button type="submit" name="button" class="btn btn-warning"><p style="margin:0;padding:0;font-weight:600;">Get Weather</p></button>
+      </form>
+
+    </div>
+
+    <footer>
+      Akshat Goyal NIT-Bhopal
+    </footer>
+  </body>
+</html>
